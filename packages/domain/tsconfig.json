@@ -9,6 +9,6 @@
         "outDir": "./lib",
         "rootDir": "./src",
         "declarationMap": true,
-        "inlineSourceMap": true
+        "sourceMap": true
     }
 }
