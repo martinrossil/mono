@@ -8,8 +8,6 @@
         "noImplicitAny": true,
         "declaration": true,
         "declarationDir": "./lib",
-        "outDir": "./lib",
-        "sourceMap": true,
-        "inlineSources": true
+        "outDir": "./lib"
     }
 }
