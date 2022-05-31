@@ -4,11 +4,10 @@
         "module": "ESNext",
         "moduleResolution": "Node",
         "strict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
         "declaration": true,
         "declarationDir": "./lib",
-        "outDir": "./lib",
-        "rootDir": "./src",
-        "declarationMap": true,
-        "sourceMap": true
+        "outDir": "./lib"
     }
 }
