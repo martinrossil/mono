@@ -7,7 +7,7 @@
     "module": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
-        "build": "rollup -c",
+        "build": "tsc",
         "docs": "typedoc --out docs src/index.ts"
     },
     "dependencies": {
