@@ -7,13 +7,16 @@
     "module": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
-        "build": "tsc",
+        "build": "rollup -c",
         "docs": "typedoc --out docs src/index.ts"
     },
     "dependencies": {
         "@martinrossil/domain": "*"
     },
     "devDependencies": {
+        "rollup": "^2.75.4",
+        "rollup-plugin-summary": "^1.4.3",
+        "rollup-plugin-typescript2": "^0.31.2",
         "typedoc": "^0.22.5",
         "typescript": "^4.6.4"
     }
