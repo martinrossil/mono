@@ -1,6 +1,11 @@
 {
   "name": "@martinrossil/mono",
   "version": "1.0.2",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "workspaces": [
     "packages/*"
   ],
