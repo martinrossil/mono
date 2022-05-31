@@ -1,5 +1,8 @@
 import ProductInterface from './ProductInterface';
 
+/**
+ * Product class
+ */
 export default class Product implements ProductInterface {
     public name: string;
     public sku: number;
