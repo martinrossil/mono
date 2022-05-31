@@ -9,6 +9,7 @@
         "declaration": true,
         "declarationDir": "./lib",
         "outDir": "./lib",
-        "sourceMap": true
+        "inlineSourceMap": true,
+        "inlineSources": true
     }
 }
