@@ -8,7 +8,7 @@ export default [
         output: {
             file: pkg.module,
             format: 'esm',
-            sourcemap: true
+            sourcemap: 'inline'
         },
         plugins: [
             typescript(),
